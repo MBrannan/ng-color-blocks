@@ -1,6 +1,6 @@
 colorBlocks.factory('DataFactory', [function() {
   console.log("data factory running");
-  var colors = [];
+  var colors = ['Red', 'Blue', 'Magenta', 'Green', 'Pink'];
 
-
+  return colors;
 }]);
